@@ -1,0 +1,105 @@
+﻿生成启动时间为 2023-03-25 22:20:21。
+     1>项目“I:\DemoTool\uDDS_demo\subscriber\subscriber.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\subscriber.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         i:\VS2010\VC\bin\CL.exe /c /II:\DemoTool\uDDS_demo\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt sub.cpp
+         sub.cpp
+     1>i:\demotool\udds_demo\subscriber\sub.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>i:\demotool\udds_demo\include\seq\sequence.template(105): warning C4018: “<”: 有符号/无符号不匹配
+                 i:\demotool\udds_demo\include\seq\sequence.template(63): 编译类 模板 成员函数“bool sequence<T>::set_maximum(unsigned long)”时
+                 with
+                 [
+                     T=std::string
+                 ]
+                 i:\demotool\udds_demo\include\seq\sequence.template(5): 编译类 模板 成员函数“sequence<T>::sequence(void)”时
+                 with
+                 [
+                     T=std::string
+                 ]
+                 i:\demotool\udds_demo\include\seq\sequence.template(600): 参见对正在编译的类 模板 实例化“sequence<T>”的引用
+                 with
+                 [
+                     T=std::string
+                 ]
+     1>i:\demotool\udds_demo\include\seq\sequence.template(105): warning C4018: “<”: 有符号/无符号不匹配
+                 i:\demotool\udds_demo\include\seq\sequence.template(63): 编译类 模板 成员函数“bool sequence<T>::set_maximum(unsigned long)”时
+                 with
+                 [
+                     T=octet
+                 ]
+                 i:\demotool\udds_demo\include\seq\sequence.template(5): 编译类 模板 成员函数“sequence<T>::sequence(void)”时
+                 with
+                 [
+                     T=octet
+                 ]
+                 i:\demotool\udds_demo\include\seq\sequence.template(681): 参见对正在编译的类 模板 实例化“sequence<T>”的引用
+                 with
+                 [
+                     T=octet
+                 ]
+     1>i:\demotool\udds_demo\include\seq\sequence.template(105): warning C4018: “<”: 有符号/无符号不匹配
+                 i:\demotool\udds_demo\include\seq\sequence.template(63): 编译类 模板 成员函数“bool sequence<T>::set_maximum(unsigned long)”时
+                 with
+                 [
+                     T=TransportMulticastSettings
+                 ]
+                 i:\demotool\udds_demo\include\seq\sequence.template(5): 编译类 模板 成员函数“sequence<T>::sequence(void)”时
+                 with
+                 [
+                     T=TransportMulticastSettings
+                 ]
+                 i:\demotool\udds_demo\include\qospolicy.h(587): 参见对正在编译的类 模板 实例化“sequence<T>”的引用
+                 with
+                 [
+                     T=TransportMulticastSettings
+                 ]
+     1>i:\demotool\udds_demo\include\seq\sequence.template(105): warning C4018: “<”: 有符号/无符号不匹配
+                 i:\demotool\udds_demo\include\seq\sequence.template(63): 编译类 模板 成员函数“bool sequence<T>::set_maximum(unsigned long)”时
+                 with
+                 [
+                     T=UserDataType
+                 ]
+                 i:\demotool\udds_demo\include\seq\sequence.template(5): 编译类 模板 成员函数“sequence<T>::sequence(void)”时
+                 with
+                 [
+                     T=UserDataType
+                 ]
+                 i:\demotool\udds_demo\subscriber\sub.cpp(22): 参见对正在编译的类 模板 实例化“sequence<T>”的引用
+                 with
+                 [
+                     T=UserDataType
+                 ]
+     1>i:\demotool\udds_demo\include\seq\sequence.template(105): warning C4018: “<”: 有符号/无符号不匹配
+                 i:\demotool\udds_demo\include\seq\sequence.template(63): 编译类 模板 成员函数“bool sequence<T>::set_maximum(unsigned long)”时
+                 with
+                 [
+                     T=SampleInfo
+                 ]
+                 i:\demotool\udds_demo\include\seq\sequence.template(5): 编译类 模板 成员函数“sequence<T>::sequence(void)”时
+                 with
+                 [
+                     T=SampleInfo
+                 ]
+                 i:\demotool\udds_demo\subscriber\sub.cpp(23): 参见对正在编译的类 模板 实例化“sequence<T>”的引用
+                 with
+                 [
+                     T=SampleInfo
+                 ]
+       Link:
+         i:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\DemoTool\uDDS_demo\Debug\subscriber.exe" /NOLOGO /LIBPATH:I:\DemoTool\uDDS_demo\vs2010Win32Debug uDDSd.lib /MANIFEST /ManifestFile:"Debug\subscriber.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"I:\DemoTool\uDDS_demo\Debug\subscriber.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\DemoTool\uDDS_demo\Debug\subscriber.lib" /MACHINE:X86 Debug\IDL_DataReader.obj
+         Debug\IDL_DataWriter.obj
+         Debug\IDL_UserDataType.obj
+         Debug\sub.obj
+         LINK : 没有找到 I:\DemoTool\uDDS_demo\Debug\subscriber.exe 或上一个增量链接没有生成它；正在执行完全链接
+         subscriber.vcxproj -> I:\DemoTool\uDDS_demo\Debug\subscriber.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"I:\DemoTool\uDDS_demo\Debug\subscriber.exe;#1" /manifest Debug\subscriber.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\subscriber.unsuccessfulbuild”。
+         正在对“Debug\subscriber.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“I:\DemoTool\uDDS_demo\subscriber\subscriber.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.69

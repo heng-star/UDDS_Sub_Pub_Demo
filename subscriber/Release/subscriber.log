@@ -1,0 +1,25 @@
+﻿生成启动时间为 2023-03-25 18:09:41。
+     1>项目“I:\DemoTool\uDDS_demo\subscriber\subscriber.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\subscriber.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         所有输出均为最新。
+         i:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\DemoTool\uDDS_demo\Release\subscriber.exe" /NOLOGO /LIBPATH:I:\DemoTool\uDDS_demo\lib\uDDS\vs2010Win32Release uDDS.lib /MANIFEST /ManifestFile:"Release\subscriber.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"I:\DemoTool\uDDS_demo\Release\subscriber.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\DemoTool\uDDS_demo\Release\subscriber.lib" /MACHINE:X86 Release\IDL_DataReader.obj
+         Release\IDL_DataWriter.obj
+         Release\IDL_UserDataType.obj
+         Release\sub.obj
+         正在生成代码
+         已完成代码的生成
+         subscriber.vcxproj -> I:\DemoTool\uDDS_demo\Release\subscriber.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"I:\DemoTool\uDDS_demo\Release\subscriber.exe;#1" /manifest Release\subscriber.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\subscriber.unsuccessfulbuild”。
+         正在对“Release\subscriber.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“I:\DemoTool\uDDS_demo\subscriber\subscriber.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.22
